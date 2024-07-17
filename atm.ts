@@ -1,8 +1,6 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
-import Choices from "inquirer/lib/objects/choices.js";
-
 let myBalance = 10000; // Dollar
 let mypin = 1234;
 let pinAnswer = await inquirer.prompt(
